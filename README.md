@@ -11,7 +11,7 @@
 </p>
 
 
-<h3 align="center">Stack Principal</h3>
+<h2 align="center">tech Stack</h2>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,spring,html,css,mysql,github,vscode" />
@@ -19,17 +19,6 @@
 
 ---
 
-<h3 align="center">Tecnologias</h3>
-
-
-<p align="center">
-  
-<img src="https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk&logoColor=white"/>
-<img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=springboot&logoColor=white"/>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white"/>
-<img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=github&logoColor=white"/>
-</p>
----
 
 <h3 align="center">Atividade</h3>
 
