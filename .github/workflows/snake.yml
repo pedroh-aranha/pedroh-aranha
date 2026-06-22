@@ -5,7 +5,6 @@ on:
     - cron: "0 */12 * * *" # roda a cada 12 horas
   workflow_dispatch:
 
-# Adiciona permissão para o bot do GitHub fazer o commit/push do arquivo
 permissions:
   contents: write
 
@@ -28,5 +27,4 @@ jobs:
           target_branch: output
           build_dir: dist
         env:
-          # Usando o token nativo do GitHub Actions
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
