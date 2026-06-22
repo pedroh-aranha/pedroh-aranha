@@ -5,6 +5,10 @@ on:
     - cron: "0 */12 * * *" # roda a cada 12 horas
   workflow_dispatch:
 
+# Adiciona permissão para o bot do GitHub fazer o commit/push do arquivo
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -19,9 +23,10 @@ jobs:
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
       - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
         env:
-          GITHUB_TOKEN: ${{ secrets.PAT }}
+          # Usando o token nativo do GitHub Actions
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
