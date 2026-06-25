@@ -11,7 +11,7 @@
 </p>
 
 
-<h2 align="center">tech Stack</h2>
+<h2 align="center">Tech Stack</h2>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=java,spring,html,css,mysql,github,vscode" />
@@ -23,7 +23,7 @@
 <h3 align="center">Atividade</h3>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=pedroh-aranha&theme=dark&hide_border=true" />
+  <img src="https://streak-stats.demolab.com?user=pedroh-aranha&theme=dark-smoky&hide_border=true" />
 </div>
 
 <br>
